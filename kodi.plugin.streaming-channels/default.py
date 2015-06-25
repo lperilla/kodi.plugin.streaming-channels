@@ -7,7 +7,6 @@ import xbmcaddon
 import xbmcgui
 import xbmcplugin
 
-
 settings = xbmcaddon.Addon(id='kodi.plugin.streaming-channels')
 language = settings.getLocalizedString
 enabledebug = settings.getSetting('enabledebug') == "true"

@@ -1,6 +1,5 @@
 import sys
 
-
 class StreamingChannelsPluginSettings():
 
     def __init__(self):

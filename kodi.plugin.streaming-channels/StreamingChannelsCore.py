@@ -10,8 +10,6 @@ import urllib2
 
 import xml.dom.minidom as minidom
 
-URL = "https://dl.dropboxusercontent.com/u/37569215/xbmc/musica.json"
-
 class StreamingChannelsCore():
     def __init__(self, instanceId=10, platformId=4, version=10):
         self.settings = sys.modules["__main__"].settings
@@ -20,16 +18,8 @@ class StreamingChannelsCore():
         self.url = sys.modules["__main__"].urlChannels
         urllib2.install_opener(sys.modules["__main__"].opener)
 
-    # Return the URL from TV Channel
     def getChannelLibrary(self):
-        req = urllib2.Request(self.url)
-        f = urllib2.urlopen(req)
-        result = simplejson.load(f)
-        f.close()
-
-        if self.enabledebug == True:
-            print result['Channels']
-        return result['Channels']
+        return self.getChannels('Channels', self.url)
 
     def getChannels(self, channelName, url):
         req = urllib2.Request(url)
