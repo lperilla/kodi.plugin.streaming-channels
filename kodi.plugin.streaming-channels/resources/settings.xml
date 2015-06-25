@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<!-- Advanced -->
+	<category label="1030">
+		<setting id="enabledebug" type="bool" label="1031" default="true" />
+		<setting id="author" type="str" label="1032" default="lperilla"/>
+		<setting id="version" type="str" label="1033" default="1.0.0"/>
+		<setting id="urlChannels" type="str" label="1034" default="https://dl.dropboxusercontent.com/u/37569215/xbmc/channels.json"/>
+	</category>
+</settings>
