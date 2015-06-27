@@ -8,4 +8,3 @@ class StreamingChannelsPluginSettings():
 
     def isEnableDebug(self):
         return self.settings.getSetting("enabledebug") == "true"
-
