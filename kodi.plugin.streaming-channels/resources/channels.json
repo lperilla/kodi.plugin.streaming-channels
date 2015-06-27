@@ -1,4 +1,11 @@
-{"Channels":[{"id":"Deportes","url":"https://dl.dropboxusercontent.com/u/37569215/xbmc/deportes.json"},
-{"id":"Musica","url":"https://dl.dropboxusercontent.com/u/37569215/xbmc/musica.json"},
-{"id":"Documentales","url":"https://dl.dropboxusercontent.com/u/37569215/xbmc/documentales.json"},
-{"id":"Series","url":"https://dl.dropboxusercontent.com/u/37569215/xbmc/series.json"}]}
+{"Channels":[{"id":"Autonomicas", "title":"Autonomicas", "url":"https://dl.dropboxusercontent.com/u/37569215/xbmc/autonomicas.json"}
+{"id":"Cine","title":"Cine","url":"https://dl.dropboxusercontent.com/u/37569215/xbmc/cine.json"},
+{"id":"Documentales","title":"Documentales","url":"https://dl.dropboxusercontent.com/u/37569215/xbmc/documentales.json"},
+{"id":"Deportes","title":"Deportes","url":"https://dl.dropboxusercontent.com/u/37569215/xbmc/deportes.json"},
+{"id":"Deportes Iternacional","title":"Deportes Iternacional","url":"https://dl.dropboxusercontent.com/u/37569215/xbmc/deportes_internacional.json"},
+{"id":"Internacional","title":"Internacional","url":"https://dl.dropboxusercontent.com/u/37569215/xbmc/internacional.json"},
+{"id":"Musica","title":"Musica","url":"https://dl.dropboxusercontent.com/u/37569215/xbmc/musica.json"},
+{"id":"Series","title":"Series","url":"https://dl.dropboxusercontent.com/u/37569215/xbmc/series.json"}
+{"id":"Nacionales","title":"Nacionales","url":"https://dl.dropboxusercontent.com/u/37569215/xbmc/nacionales.json"}
+{"id":"Infantil","title":"Infantil","url":"https://dl.dropboxusercontent.com/u/37569215/xbmc/infantil.json"}
+{"id":"Adultos","title":"Adultos","url":"https://dl.dropboxusercontent.com/u/37569215/xbmc/adultos.json"}]}

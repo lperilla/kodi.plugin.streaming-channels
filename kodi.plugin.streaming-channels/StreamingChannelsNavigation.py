@@ -33,7 +33,7 @@ class StreamingChannelsNavigation():
 		
 	def loadChannelsMenu(self):
 		urlCategory = self.args['url'][0]
-		nameCategory = self.args['category'][0] 
+		nameCategory = self.args['category'][0]
 		channels = self.core.getChannels(nameCategory, urlCategory)
 		for channel in channels:
 			item = channel.get
